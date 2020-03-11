@@ -10,7 +10,7 @@ permalink: /fi/dokumentaatio/
 
 Koodin lisäksi tehtävänä on neljä dokumenttia: määrittelydokumentti, toteutusdokumentti, käyttöohje ja testausdokumentti. Dokumenttien merkitys kurssilla on kuitenkin vähäisempi; olennainen asia on toimiva ja tehokas koodi.
 
-Huomaa että jokaisen dokumentin pituus on n. 1-2 A4, poislukien kuvat ja taulukot (todellinen pituus voi olla siis merkittävästi suuremi).
+Huomaa että jokaisen dokumentin pituus on n. 1-2 A4, poislukien kuvat ja taulukot (todellinen pituus voi olla siis merkittävästi suurempi).
 
 ## Vaaditut dokumentit:
 
