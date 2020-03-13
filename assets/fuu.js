@@ -1,12 +1,12 @@
 const timing = {
     "start": {"date": "2020-03-11", "fi": "Aloitusluento", "en": "Mandatory lecture", "common": "16-18 B119"},
     "paja1": {"date": "2020-03-12", "en": "Workshop", "fi": "Paja", "common": "14-16 BK107"},
-    "paja2": {"date": "2020-03-19", "en": "Workshop", "fi": "Paja", "common": "14-16 BK107"},
+    /*"paja2": {"date": "2020-03-19", "en": "Workshop", "fi": "Paja", "common": "14-16 BK107"},
     "paja3": {"date": "2020-03-26", "en": "Workshop", "fi": "Paja", "common": "14-16 BK107"},
     "paja4": {"date": "2020-04-02", "en": "Workshop", "fi": "Paja", "common": "14-16 BK107"},
     "paja5": {"date": "2020-04-16", "en": "Workshop", "fi": "Paja", "common": "14-16 BK107"},
     "paja6": {"date": "2020-04-23", "en": "Workshop", "fi": "Paja", "common": "14-16 BK107"},
-    "paja7": {"date": "2020-04-30", "en": "Workshop", "fi": "Paja", "common": "14-16 BK107"},
+    "paja7": {"date": "2020-04-30", "en": "Workshop", "fi": "Paja", "common": "14-16 BK107"},*/
     /*"paja8": {"date": "2020-03-13", "en": "Workshop", "fi": "Paja", "common": "15-17 BK107"},
     "paja9": {"date": "2020-03-20", "en": "Workshop", "fi": "Paja", "common": "15-17 BK107"},
     "paja10": {"date": "2020-03-27", "en": "Workshop", "fi": "Paja", "common": "15-17 BK107"},
