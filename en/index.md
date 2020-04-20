@@ -66,7 +66,9 @@ Detailed course timing is available [here](timing/).
 
 * [Detailed course schedule](timing/)
 
-* [Topic ideas](topics)
+* [Topic ideas](topics/)
+
+* [Frequently asked questions](faq/)
 
 * [Information about the required documentation](documentation/)
 
