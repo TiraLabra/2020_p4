@@ -50,9 +50,15 @@ Yleisesti korkeamman tason funktioita ei sallita, sillä ne piilottavat epätriv
 
 Toki käyttöliittymäkoodissa myös `String` luokan kaikkea toiminnallisuutta saa (ja kannattaa) käyttää.
 
+## Onko `System.arraycopy` sallittu?
+
+Ks. alla.
+
 ## Saako `Arrays` luokan funktioita / metodeita käyttää?
 
-Lähtökohtaisesti ei. Tosin esimerkiksi taulukon kopiointi käyttämättä `copyOf` funktiota voi olla niin paljon hitaampaa että taulukon kopiointi muodostuu algoritmissa pullonkaulaksi mikä ei ole tarkoituksenmukaista. Tällöin kannattaa dokumentoida suorituskykyero ja käyttää valmista `copyOf` funktiota projektissa.
+Lähtökohtaisesti ei. Tosin esimerkiksi taulukon kopiointi käyttämättä `System.arraycopy` funktiota voi olla niin paljon hitaampaa että taulukon kopiointi muodostuu algoritmissa pullonkaulaksi mikä ei ole tarkoituksenmukaista. Tällöin kannattaa dokumentoida suorituskykyero ja käyttää valmista `arraycopy` funktiota projektissa.
+
+Sama voi päteä myös joillekin `Arrays` funktioille / metodeille?
 
 ## Saako käyttää javan `Random` luokkaa?
 
