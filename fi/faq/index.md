@@ -32,6 +32,28 @@ Esimerkiksi javan `List` sisältää paljon ominaisuuksia, mitä ei itse toteute
 
 Ei.
 
+## Saako javan funktionaalisia ominaisuuksia (stream) käyttää?
+
+Ehkä. 
+
+Näiden käyttäminen tiralabran tyyppisessä projektissa on monesti epäkäytännöllistä näiden rakenteiden hitaudesta johtuen.
+
+Nämä toki ovat sallittuja ainakin testeissä ja käyttöliittymäkoodissa.
+
+## Saako `String` luokan funktioita / metodeita käyttää?
+
+`lenght()` on oikeastaan pakko sallia.
+
+Muita sallittuja on ainakin `charAt()`, `toCharArray()`, `getBytes()`, `equals()`.
+
+Yleisesti korkeamman tason funktioita ei sallita, sillä ne piilottavat epätriviaalia toiminnallisuutta. Toki kannattaa kysyä jos on jotain epäselvää.
+
+Toki käyttöliittymäkoodissa myös `String` luokan kaikkea toiminnallisuutta saa (ja kannattaa) käyttää.
+
+## Saako `Arrays` luokan funktioita / metodeita käyttää?
+
+Lähtökohtaisesti ei. Tosin esimerkiksi taulukon kopiointi käyttämättä `copyOf` funktiota voi olla niin paljon hitaampaa että taulukon kopiointi muodostuu algoritmissa pullonkaulaksi mikä ei ole tarkoituksenmukaista. Tällöin kannattaa dokumentoida suorituskykyero ja käyttää valmista `copyOf` funktiota projektissa.
+
 ## Saako käyttää javan `Random` luokkaa?
 
 Ei oikeastaan. 
