@@ -32,6 +32,34 @@ For example, the java `List` interface contains many features not often needed i
 
 No.
 
+## Are the "functional" java features (streams) allowed?
+
+Possibly.
+
+However these are often so slow compared to the alternatives as to be impractical in project work where performance is a priority.
+
+Of course these are perfectly fine in tests and user interface code.
+
+## Is using functions / methods from the `String` class allowed?
+
+The `lenght()` functions essentially has to be allowed.
+
+Others that are allowed are at least `charAt()`, `toCharArray()`, `getBytes()`, `equals()`.
+
+Generally more complex functions are not allowed as these hide non-trivial functionality. Ask if unsure.
+
+Of course these are fine in the usere interface.
+
+## Is using `System.arraycopy` allowed?
+
+See below.
+
+## Is using functions / methods from the `Arrays` class allowed?
+
+in principle, no. However, for example, copying arrays without using `System.arraycopy` may be slow enough to become a bottle neck in the code, witch is not practical. In this case, you should document the performance difference and use built in functions.
+
+This may apply to member of `Arrays` as well.
+
 ## May I use the java `Random` class?
 
 Not really. 
