@@ -3,7 +3,13 @@
         <li class="upper-nav-obj"><a href="{{ 'index'  | relative_url }}">Etusivu</a>
 
             {% for page in site.fi %}
+
+            {% if page.nav-title%}
+        <li class="upper-nav-obj"><a href="{{ page.url  | relative_url }}">{{ page.nav-title }}</a>
+            {% else %}
         <li class="upper-nav-obj"><a href="{{ page.url  | relative_url }}">{{ page.title }}</a>
+            {% endif %}
+
         </li>
         {% endfor %}
     </ol>
