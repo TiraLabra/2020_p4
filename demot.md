@@ -1,21 +1,31 @@
-# 5.5.2020 Demot
+# 7.5.2020 Demot
 
 ## [Google forms](https://forms.gle/Wij3YL4w5hZYfvji9)
 
-1. seam-carving
+1. gravity_assist_simulator_2020
 
-2. Verkkoalgoritmit
+2. 2048-solver
 
-3. huffman-encoder
+3. Miinaharava-TiraLabra2020
 
-4. Compressor
+4. SudokuSolver_tuomas
 
-5. juicydb
+5. NonogramSolver
 
-6. scrabblebotti
+6. Mnist-NN-classifier
 
-7. jarjestamisalgoritmien-vertailu
+7. Mazesolver
 
-8. labyrinttiratkoja
+8. tiralabra
 
-9. horseAlgorithm
+9. plortz
+
+10. tiralabra-nonogram
+
+11. luola
+
+12. marching-caves
+
+13. RegexMatcher
+
+14. Puristin
