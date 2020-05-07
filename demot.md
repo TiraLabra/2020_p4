@@ -29,3 +29,9 @@
 13. RegexMatcher
 
 14. Puristin
+
+15. 15-puzzle-solver
+
+16. Verkkoalgoritmit
+
+17. lamb_game
