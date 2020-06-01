@@ -1,5 +1,6 @@
 ---
 layout: info
+nav-title: "Aiheita"
 title:  "Aiheita"
 categories: jekyll update
 tag: info

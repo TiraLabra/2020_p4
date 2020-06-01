@@ -14,3 +14,9 @@ plugins:
 
 kramdown:
   parse_block_html: true
+
+collections:
+  fi:
+    output: true
+  en:
+    output: true
